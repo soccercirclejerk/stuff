@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+	padding: 0;
+}
+
+#button {
+	width: 355px;
+	height: 245px;
+  margin: 80px auto;
+	background: url(../images/button.png) 0 0 no-repeat;
+}
+
+	#button.pressed {
+		margin: 90px auto;
+		background-position: -355px 0;
+	}
+
+#wrap {
+	width: 500px;
+	height: auto;
+	margin: 80px auto;
+}
