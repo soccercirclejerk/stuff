@@ -5,6 +5,7 @@ $(document).ready(function(){
   
 	button.mousedown(function() {
 	  $(this).addClass("pressed");
+    audio.load();
 	  audio.play();  
 	});
   
